@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Context-Engineering"
+		},
+		{
+			"path": "../JoshGPT-vscode"
+		}
+	],
+	"settings": {
+		"joshgpt.baseUrl": "http://host.docker.internal:1234/v1",
+		"joshgpt.nativeBaseUrl": "http://host.docker.internal:1234",
+		"joshgpt.chatEndpointMode": "openai-compat",
+		"joshgpt.model": "oss20b-local",
+		"joshgpt.apiKey": "lm-studio",
+		"joshgpt.systemPrompt": "You are JoshGPT, a concise coding assistant.",
+		"joshgpt.temperature": 0.2,
+		"joshgpt.maxTokens": 512,
+		"joshgpt.mcp.enabled": false,
+		"joshgpt.mcp.baseUrl": "host.docker.internal:8790/mcp",
+		"joshgpt.mcp.timeoutMs": 15000,
+		"joshgpt.mcp.maxToolRounds": 4,
+		"joshgpt.localShell.enabled": true,
+		"joshgpt.localShell.defaultTimeoutSeconds": 30,
+		"joshgpt.localShell.maxTimeoutSeconds": 300,
+		"joshgpt.localShell.defaultMaxOutputChars": 12000,
+		"joshgpt.localShell.maxOutputChars": 50000,
+		"joshgpt.localShell.mirrorTerminalName": "JoshGPT Local Shell",
+		"joshgpt.localShell.mirrorTerminalReveal": true
+	}
+}
