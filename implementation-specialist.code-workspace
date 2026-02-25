@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../Context-Engineering"
+		},
+		{
+			"path": "../JoshGPT-vscode"
 		}
 	]
 }
